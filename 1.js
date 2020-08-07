@@ -1,1 +1,1 @@
-alert(document.domain)
+eval(document.domain)
