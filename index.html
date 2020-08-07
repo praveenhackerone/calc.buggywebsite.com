@@ -1,0 +1,11 @@
+<script>
+    function post()
+    {
+        var w;
+		
+		window.parent.postMessage('hello','http://calc.buggywebsite.com');
+		console.log(w);
+    }
+   
+ </script>
+<iframe  onload="post()" src="http://calc.buggywebsite.com/frame.html"></iframe>
